@@ -1,4 +1,5 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -12,6 +13,8 @@ const Contact = () => {
         similique culpa provident optio quo. Deleniti, repudiandae quae? Alias
         debitis esse eveniet consequuntur ex!
       </p>
+
+      <Outlet />
     </div>
   );
 };
