@@ -1,5 +1,6 @@
 .user {
   border: 2px solid greenyellow;
   margin-bottom: 10px;
-  border-radius: 10px;
+  border-radius: 20px;
+  padding: 10px;
 }
